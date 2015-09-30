@@ -1,0 +1,18 @@
+en:
+  product:
+    name: Automobile
+    category:
+      short: SUV
+      long: Sports Utility Vehicle
+
+  grade:
+    name: Grade
+    kindergarten:
+      long: Kindergarten
+      short: K
+    first:
+      long: First grade
+      short: 1st
+    second:
+      long: Second grade
+      short: 2nd
