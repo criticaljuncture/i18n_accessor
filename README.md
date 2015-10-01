@@ -1,5 +1,7 @@
 # I18nAccessor
 
+[![Circle CI](https://circleci.com/gh/criticaljuncture/i18n_accessor.svg?style=shield)](https://circleci.com/gh/criticaljuncture/i18n_accessor)
+
 I18nAccessor uses a little metaprogramming to provide some syntactic sugar that
 will help clean up your views when using I18n to display static properties on an
 object.
@@ -36,7 +38,7 @@ model_name:
   accessor: 'your string'
 ```  
 
-I18nAccessor` also accepts a second `:scope` param as follows:
+I18nAccessor also accepts a second `:scope` param as follows:
 `i18n_accessor :accessor, scope: 'short'`
 
 This will look up the corresponding translation as follows:
